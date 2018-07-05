@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0BE4D11C279C2F00FE946E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0BE4D01C279C2F00FE946E /* SecondViewController.m */; };
+		1C9877B51C18581100C9BDAD /* FristTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9877B41C18581100C9BDAD /* FristTableViewCell.m */; };
 		1CE6A29D1C15BAEC00BBC31D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6A29C1C15BAEC00BBC31D /* main.m */; };
 		1CE6A2A01C15BAEC00BBC31D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6A29F1C15BAEC00BBC31D /* AppDelegate.m */; };
 		1CE6A2A31C15BAEC00BBC31D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6A2A21C15BAEC00BBC31D /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C0BE4CF1C279C2F00FE946E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1C0BE4D01C279C2F00FE946E /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1C9877B31C18581100C9BDAD /* FristTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristTableViewCell.h; sourceTree = "<group>"; };
+		1C9877B41C18581100C9BDAD /* FristTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristTableViewCell.m; sourceTree = "<group>"; };
 		1CE6A2981C15BAEC00BBC31D /* NoteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CE6A29C1C15BAEC00BBC31D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CE6A29E1C15BAEC00BBC31D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				1CE6A29F1C15BAEC00BBC31D /* AppDelegate.m */,
 				1CE6A2A11C15BAEC00BBC31D /* ViewController.h */,
 				1CE6A2A21C15BAEC00BBC31D /* ViewController.m */,
+				1C9877B31C18581100C9BDAD /* FristTableViewCell.h */,
+				1C9877B41C18581100C9BDAD /* FristTableViewCell.m */,
+				1C0BE4CF1C279C2F00FE946E /* SecondViewController.h */,
+				1C0BE4D01C279C2F00FE946E /* SecondViewController.m */,
 				1CE6A2A41C15BAEC00BBC31D /* Main.storyboard */,
 				1CE6A2A71C15BAED00BBC31D /* Assets.xcassets */,
 				1CE6A2A91C15BAED00BBC31D /* LaunchScreen.storyboard */,
@@ -270,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0BE4D11C279C2F00FE946E /* SecondViewController.m in Sources */,
 				1CE6A2A31C15BAEC00BBC31D /* ViewController.m in Sources */,
 				1CE6A2A01C15BAEC00BBC31D /* AppDelegate.m in Sources */,
+				1C9877B51C18581100C9BDAD /* FristTableViewCell.m in Sources */,
 				1CE6A29D1C15BAEC00BBC31D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -401,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,6 +510,7 @@
 				1CE6A2C71C15BAED00BBC31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CE6A2C81C15BAED00BBC31D /* Build configuration list for PBXNativeTarget "NoteDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				1CE6A2CA1C15BAED00BBC31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CE6A2CB1C15BAED00BBC31D /* Build configuration list for PBXNativeTarget "NoteDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				1CE6A2CD1C15BAED00BBC31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
