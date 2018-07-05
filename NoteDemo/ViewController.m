@@ -7,14 +7,15 @@
 //
 
 #import "ViewController.h"
-#import <MapKit/MapKit.h>
 #import "FristTableViewCell.h"
 #import "SecondViewController.h"
+#import "ThridTableViewCell.h"
+
+static NSString * const ThridTableViewCellID = @"ThridTableViewCellID";
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-
 
 @end
 
@@ -28,6 +29,7 @@
     self.title = @"tableview 圆角";
     
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    _tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,22 +44,38 @@
 {
     return 4;
 }
+
+
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if(indexPath.row % 2 == 0)
+    {
+        FristTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FristTableViewCell" forIndexPath:
+                                    indexPath];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.backgroundColor = [UIColor groupTableViewBackgroundColor];
+        cell.RootView.backgroundColor = [UIColor whiteColor];
+        cell.RootView.layer.cornerRadius = 5;
+     
+        cell.textLabel.text = @"FristTableViewCell";
+        return cell;
+    }else
+    {
+        ThridTableViewCell *cellthrid = [tableView dequeueReusableCellWithIdentifier:ThridTableViewCellID];
+        [cellthrid setSelectionStyle:UITableViewCellSelectionStyleNone];
+        if (!cellthrid)
+        {
+            cellthrid = [[ThridTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ThridTableViewCellID];
+        }
+        cellthrid.textLabel.text = @"ThridTableViewCell";
+        
+        return cellthrid;
+    }
     
-    FristTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FristTableViewCell" forIndexPath:
-                                indexPath];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.backgroundColor = [UIColor groupTableViewBackgroundColor];
-    cell.RootView.layer.cornerRadius = 5;
-//    cell.RootView.layer.borderColor = [[UIColor lightGrayColor]CGColor];
-//    cell.RootView.layer.borderWidth = 1;
-    cell.RootView.backgroundColor = [UIColor whiteColor];
-    return cell;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 130;
+    return 120;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
