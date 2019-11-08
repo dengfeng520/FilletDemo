@@ -16,26 +16,7 @@
 		1CE6A2A61C15BAEC00BBC31D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE6A2A41C15BAEC00BBC31D /* Main.storyboard */; };
 		1CE6A2A81C15BAED00BBC31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE6A2A71C15BAED00BBC31D /* Assets.xcassets */; };
 		1CE6A2AB1C15BAED00BBC31D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CE6A2A91C15BAED00BBC31D /* LaunchScreen.storyboard */; };
-		1CE6A2B61C15BAED00BBC31D /* NoteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6A2B51C15BAED00BBC31D /* NoteDemoTests.m */; };
-		1CE6A2C11C15BAED00BBC31D /* NoteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE6A2C01C15BAED00BBC31D /* NoteDemoUITests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1CE6A2B21C15BAED00BBC31D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1CE6A2901C15BAEC00BBC31D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1CE6A2971C15BAEC00BBC31D;
-			remoteInfo = NoteDemo;
-		};
-		1CE6A2BD1C15BAED00BBC31D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1CE6A2901C15BAEC00BBC31D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1CE6A2971C15BAEC00BBC31D;
-			remoteInfo = NoteDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1C0BE4CF1C279C2F00FE946E /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -54,30 +35,10 @@
 		1CE6A2A71C15BAED00BBC31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CE6A2AA1C15BAED00BBC31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CE6A2AC1C15BAED00BBC31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CE6A2B11C15BAED00BBC31D /* NoteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CE6A2B51C15BAED00BBC31D /* NoteDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteDemoTests.m; sourceTree = "<group>"; };
-		1CE6A2B71C15BAED00BBC31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CE6A2BC1C15BAED00BBC31D /* NoteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CE6A2C01C15BAED00BBC31D /* NoteDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteDemoUITests.m; sourceTree = "<group>"; };
-		1CE6A2C21C15BAED00BBC31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1CE6A2951C15BAEC00BBC31D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1CE6A2AE1C15BAED00BBC31D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1CE6A2B91C15BAED00BBC31D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				1CE6A29A1C15BAEC00BBC31D /* NoteDemo */,
-				1CE6A2B41C15BAED00BBC31D /* NoteDemoTests */,
-				1CE6A2BF1C15BAED00BBC31D /* NoteDemoUITests */,
 				1CE6A2991C15BAEC00BBC31D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				1CE6A2981C15BAEC00BBC31D /* NoteDemo.app */,
-				1CE6A2B11C15BAED00BBC31D /* NoteDemoTests.xctest */,
-				1CE6A2BC1C15BAED00BBC31D /* NoteDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,24 +94,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1CE6A2B41C15BAED00BBC31D /* NoteDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				1CE6A2B51C15BAED00BBC31D /* NoteDemoTests.m */,
-				1CE6A2B71C15BAED00BBC31D /* Info.plist */,
-			);
-			path = NoteDemoTests;
-			sourceTree = "<group>";
-		};
-		1CE6A2BF1C15BAED00BBC31D /* NoteDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1CE6A2C01C15BAED00BBC31D /* NoteDemoUITests.m */,
-				1CE6A2C21C15BAED00BBC31D /* Info.plist */,
-			);
-			path = NoteDemoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,42 +114,6 @@
 			productReference = 1CE6A2981C15BAEC00BBC31D /* NoteDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1CE6A2B01C15BAED00BBC31D /* NoteDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1CE6A2C81C15BAED00BBC31D /* Build configuration list for PBXNativeTarget "NoteDemoTests" */;
-			buildPhases = (
-				1CE6A2AD1C15BAED00BBC31D /* Sources */,
-				1CE6A2AE1C15BAED00BBC31D /* Frameworks */,
-				1CE6A2AF1C15BAED00BBC31D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1CE6A2B31C15BAED00BBC31D /* PBXTargetDependency */,
-			);
-			name = NoteDemoTests;
-			productName = NoteDemoTests;
-			productReference = 1CE6A2B11C15BAED00BBC31D /* NoteDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1CE6A2BB1C15BAED00BBC31D /* NoteDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1CE6A2CB1C15BAED00BBC31D /* Build configuration list for PBXNativeTarget "NoteDemoUITests" */;
-			buildPhases = (
-				1CE6A2B81C15BAED00BBC31D /* Sources */,
-				1CE6A2B91C15BAED00BBC31D /* Frameworks */,
-				1CE6A2BA1C15BAED00BBC31D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1CE6A2BE1C15BAED00BBC31D /* PBXTargetDependency */,
-			);
-			name = NoteDemoUITests;
-			productName = NoteDemoUITests;
-			productReference = 1CE6A2BC1C15BAED00BBC31D /* NoteDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,14 +126,6 @@
 					1CE6A2971C15BAEC00BBC31D = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
-					1CE6A2B01C15BAED00BBC31D = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 1CE6A2971C15BAEC00BBC31D;
-					};
-					1CE6A2BB1C15BAED00BBC31D = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 1CE6A2971C15BAEC00BBC31D;
-					};
 				};
 			};
 			buildConfigurationList = 1CE6A2931C15BAEC00BBC31D /* Build configuration list for PBXProject "NoteDemo" */;
@@ -238,6 +133,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,8 +143,6 @@
 			projectRoot = "";
 			targets = (
 				1CE6A2971C15BAEC00BBC31D /* NoteDemo */,
-				1CE6A2B01C15BAED00BBC31D /* NoteDemoTests */,
-				1CE6A2BB1C15BAED00BBC31D /* NoteDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,20 +155,6 @@
 				1CE6A2AB1C15BAED00BBC31D /* LaunchScreen.storyboard in Resources */,
 				1CE6A2A81C15BAED00BBC31D /* Assets.xcassets in Resources */,
 				1CE6A2A61C15BAEC00BBC31D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1CE6A2AF1C15BAED00BBC31D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1CE6A2BA1C15BAED00BBC31D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,36 +174,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CE6A2AD1C15BAED00BBC31D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CE6A2B61C15BAED00BBC31D /* NoteDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1CE6A2B81C15BAED00BBC31D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CE6A2C11C15BAED00BBC31D /* NoteDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1CE6A2B31C15BAED00BBC31D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1CE6A2971C15BAEC00BBC31D /* NoteDemo */;
-			targetProxy = 1CE6A2B21C15BAED00BBC31D /* PBXContainerItemProxy */;
-		};
-		1CE6A2BE1C15BAED00BBC31D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1CE6A2971C15BAEC00BBC31D /* NoteDemo */;
-			targetProxy = 1CE6A2BD1C15BAED00BBC31D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1CE6A2A41C15BAEC00BBC31D /* Main.storyboard */ = {
@@ -449,54 +300,6 @@
 			};
 			name = Release;
 		};
-		1CE6A2C91C15BAED00BBC31D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = NoteDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----.NoteDemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteDemo.app/NoteDemo";
-			};
-			name = Debug;
-		};
-		1CE6A2CA1C15BAED00BBC31D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = NoteDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----.NoteDemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteDemo.app/NoteDemo";
-			};
-			name = Release;
-		};
-		1CE6A2CC1C15BAED00BBC31D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = NoteDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----.NoteDemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NoteDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		1CE6A2CD1C15BAED00BBC31D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = NoteDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "----.NoteDemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = NoteDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -514,24 +317,6 @@
 			buildConfigurations = (
 				1CE6A2C61C15BAED00BBC31D /* Debug */,
 				1CE6A2C71C15BAED00BBC31D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1CE6A2C81C15BAED00BBC31D /* Build configuration list for PBXNativeTarget "NoteDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1CE6A2C91C15BAED00BBC31D /* Debug */,
-				1CE6A2CA1C15BAED00BBC31D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1CE6A2CB1C15BAED00BBC31D /* Build configuration list for PBXNativeTarget "NoteDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1CE6A2CC1C15BAED00BBC31D /* Debug */,
-				1CE6A2CD1C15BAED00BBC31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
